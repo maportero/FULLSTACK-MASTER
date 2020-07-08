@@ -1,0 +1,59 @@
+		<div class="card-columns" *ngIf="posts && posts.length >=1 ">
+
+			<article class="card " *ngFor="let post of posts">
+				<div class="card-header">
+					<h3>
+						<a [routerLink]="['/entrada', post.id]">{{ post.title }}</a>
+					</h3>
+				</div>
+				<div class="card-body">
+
+					<!-- imagen -->
+					<div class="post-image w-100" *ngIf="post.image">
+						<img src="{{url + 'post/image/' + post.image }}" class="w-100">
+					</div>
+					<div class="post-image w-100" *ngIf="!post.image">
+						<img src="https://via.placeholder.com/400x250" class="w-100">
+					</div>
+					<!-- Btones de accion -->
+					<div class="post-action mt-3">
+						<a [routerLink]="['/entrada', post.id]" class="btn btn-sm btn-info mr-2">Ver</a>
+						<span *ngIf="identity && identity.sub == post.user_id">
+							<a [routerLink]="['/editar-entrada', post.id]" class="btn btn-sm btn-success mr-2">Editar</a>
+							
+
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-sm btn-danger" data-toggle="modal" [attr.data-target]="'#exampleModal' + post.id ">
+							  Borrar
+							</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal{{post.id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title" id="exampleModalLabel">Confirmación</h5>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true">&times;</span>
+							        </button>
+							      </div>
+							      <div class="modal-body">
+							        Desea borrar la entrada - {{post.title }}?
+							      </div>
+							      <div class="modal-footer">
+							        <a (click)="deletePost(post.id)" class="btn  btn-success " data-dismiss="modal">Sí</a>
+							        <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+
+
+						</span>
+					</div>
+
+				</div>
+				
+			</article>
+
+		</div>

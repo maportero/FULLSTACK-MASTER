@@ -1,0 +1,854 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"error\tmethod"
+			],
+			[
+				"de",
+				"delete"
+			],
+			[
+				"Even",
+				"EventEmitter\talias"
+			],
+			[
+				"In",
+				"Input\talias"
+			],
+			[
+				"get",
+				"getPosts\tmethod"
+			],
+			[
+				"row",
+				"row-cols-2 \tBootstrap 4.4"
+			],
+			[
+				"col",
+				"col-8 \tBootstrap 4.4"
+			],
+			[
+				"float",
+				"float-right \tBootstrap 4.4"
+			],
+			[
+				"flex",
+				"flex-column \tBootstrap 4.4"
+			],
+			[
+				"flo",
+				"float-right \tBootstrap 4.4"
+			],
+			[
+				"start",
+				"justify-content-start \tBootstrap 4.4"
+			],
+			[
+				"m",
+				"m-0 \tBootstrap 4.4"
+			],
+			[
+				"str",
+				"align-content-stretch \tBootstrap 4.4"
+			],
+			[
+				"alig",
+				"align-items-stretch \tBootstrap 4.4"
+			],
+			[
+				"riht",
+				"float-right \tBootstrap 4.4"
+			],
+			[
+				"ser",
+				"services"
+			],
+			[
+				"_",
+				"_route\tproperty"
+			],
+			[
+				"in",
+				"Injectable\talias"
+			],
+			[
+				"ale",
+				"alert-warning \tBootstrap 4.4"
+			],
+			[
+				"getCate",
+				"getCategory\tmethod"
+			],
+			[
+				"del",
+				"delete\tmethod"
+			],
+			[
+				"category",
+				"category_id\tproperty"
+			],
+			[
+				"marg",
+				"margin-top\tproperty"
+			],
+			[
+				"_rou",
+				"_router\tproperty"
+			],
+			[
+				"Post",
+				"PostService\talias"
+			],
+			[
+				"po",
+				"Post\tscript"
+			],
+			[
+				"_se",
+				"_userService\tproperty"
+			],
+			[
+				"righ",
+				"float-right \tBootstrap 4.4"
+			],
+			[
+				"mt-",
+				"mt-3 \tBootstrap 4.4"
+			],
+			[
+				"Postservice",
+				"PostService"
+			],
+			[
+				"pro",
+				"providers\tproperty"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"cate",
+				"CategoryService\talias"
+			],
+			[
+				"POs",
+				"PostService\talias"
+			],
+			[
+				"ca",
+				"categories\tproperty"
+			],
+			[
+				"categ",
+				"CategoryService\talias"
+			],
+			[
+				"pa",
+				"params\tlet"
+			],
+			[
+				"Categ",
+				"CategoryService\talias"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"mr",
+				"mr-1 \tBootstrap 4.4"
+			],
+			[
+				"srin",
+				"string\tkeyword"
+			],
+			[
+				"repos",
+				"Response\tvar"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"User",
+				"UserService\talias"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"lo",
+				"loadUser\tmethod"
+			],
+			[
+				"ngOnInit",
+				"ngOnInit\tmethod"
+			],
+			[
+				"Do",
+				"DoCheck\talias"
+			],
+			[
+				"_ro",
+				"_router"
+			],
+			[
+				"log",
+				"logout\tlet"
+			],
+			[
+				"Lo",
+				"LoginComponent\talias"
+			],
+			[
+				"cons",
+				"console\tvar"
+			],
+			[
+				"use",
+				"UserService"
+			],
+			[
+				"s",
+				"stringify\tmethod"
+			],
+			[
+				"I",
+				"identity\tproperty"
+			],
+			[
+				"u",
+				"User"
+			],
+			[
+				"error",
+				"errors"
+			],
+			[
+				"alert-s",
+				"alert-success \tBootstrap 4.4"
+			],
+			[
+				"g",
+				"global\tscript"
+			],
+			[
+				"re",
+				"register"
+			],
+			[
+				"Http",
+				"HttpHeaders"
+			],
+			[
+				"Htt",
+				"HttpClient"
+			],
+			[
+				"htt",
+				"HttpClientModule\talias"
+			],
+			[
+				"H",
+				"http\tscript"
+			],
+			[
+				"regi",
+				"registerForm"
+			],
+			[
+				"form",
+				"form-control \tBootstrap 4.4"
+			],
+			[
+				"btn-s",
+				"btn-success \tBootstrap 4.4"
+			],
+			[
+				"E",
+				"ErrorComponent\talias"
+			],
+			[
+				"app",
+				"appRoutingProviders\talias"
+			],
+			[
+				"Rou",
+				"RouterModule\talias"
+			],
+			[
+				"reg",
+				"RegisterComponent\talias"
+			],
+			[
+				"table-res",
+				"table-responsive-sm \tBootstrap 4.4"
+			],
+			[
+				"img",
+				"img-fluid \tBootstrap 4.4"
+			],
+			[
+				"d-non",
+				"d-sm-none \tBootstrap 4.4"
+			],
+			[
+				"d-sm",
+				"d-sm-inline \tBootstrap 4.4"
+			],
+			[
+				"none",
+				"d-none \tBootstrap 4.4"
+			],
+			[
+				"collap",
+				"collapsing \tBootstrap 4.4"
+			],
+			[
+				"l",
+				"lead \tBootstrap 4.4"
+			],
+			[
+				"align",
+				"align-items-center \tBootstrap 4.4"
+			],
+			[
+				"align-it",
+				"align-items-center \tBootstrap 4.4"
+			],
+			[
+				"a",
+				"align-content-center \tBootstrap 4.4"
+			],
+			[
+				"fil",
+				"flex-fill \tBootstrap 4.4"
+			],
+			[
+				"just",
+				"justify-content-center \tBootstrap 4.4"
+			],
+			[
+				"style",
+				"style\tAttr"
+			],
+			[
+				"mt",
+				"mt-2 \tBootstrap 4.4"
+			],
+			[
+				"from",
+				"form-control \tBootstrap 4.4"
+			],
+			[
+				"border-",
+				"border-left \tBootstrap 4.4"
+			],
+			[
+				"border",
+				"border-0 \tBootstrap 4.4"
+			],
+			[
+				"bord",
+				"border-0 \tBootstrap 4.4"
+			],
+			[
+				"ali",
+				"align-items-start \tBootstrap 4.4"
+			],
+			[
+				"al",
+				"align-content-center \tBootstrap 4.4"
+			],
+			[
+				"jus",
+				"justify-content-center \tBootstrap 4.4"
+			],
+			[
+				"text-r",
+				"text-right \tBootstrap 4.4"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"card-T",
+				"card-title \tBootstrap 4.4"
+			],
+			[
+				"shad",
+				"shadow-lg \tBootstrap 4.4"
+			],
+			[
+				"text-whi",
+				"text-white \tBootstrap 4.4"
+			],
+			[
+				"bg",
+				"bg-info \tBootstrap 4.4"
+			],
+			[
+				"card",
+				"justify-content-around \tBootstrap 4.4"
+			],
+			[
+				"d",
+				"d-flex \tBootstrap 4.4"
+			],
+			[
+				"align-content-",
+				"align-content-between \tBootstrap 4.4"
+			],
+			[
+				"align-con",
+				"align-content-lg-center \tBootstrap 4.4"
+			],
+			[
+				"flex-md",
+				"flex-md-row \tBootstrap 4.4"
+			],
+			[
+				"text-m",
+				"text-muted \tBootstrap 4.4"
+			],
+			[
+				"p",
+				"p-3 \tBootstrap 4.4"
+			],
+			[
+				"tex",
+				"text-center \tBootstrap 4.4"
+			],
+			[
+				"m-t",
+				"mt-5 \tBootstrap 4.4"
+			],
+			[
+				"mb",
+				"mb-5 \tBootstrap 4.4"
+			],
+			[
+				"colum",
+				"flex-column \tBootstrap 4.4"
+			],
+			[
+				"colu",
+				"flex-column \tBootstrap 4.4"
+			],
+			[
+				"my",
+				"my-auto \tBootstrap 4.4"
+			],
+			[
+				"pr-md",
+				"pr-md-5 \tBootstrap 4.4"
+			],
+			[
+				"p-md",
+				"pb-md-5 \tBootstrap 4.4"
+			],
+			[
+				"bloc",
+				"d-md-block \tBootstrap 4.4"
+			],
+			[
+				"mx",
+				"mx-auto \tBootstrap 4.4"
+			],
+			[
+				"algi",
+				"align-content-between \tBootstrap 4.4"
+			],
+			[
+				"ro",
+				"row \tBootstrap 4.4"
+			],
+			[
+				"my-",
+				"my-auto \tBootstrap 4.4"
+			],
+			[
+				"m-md-",
+				"m-md-5 \tBootstrap 4.4"
+			],
+			[
+				"p-md-",
+				"p-md-5 \tBootstrap 4.4"
+			],
+			[
+				"ju",
+				"justify-content-end \tBootstrap 4.4"
+			],
+			[
+				"alin",
+				"align-bottom \tBootstrap 4.4"
+			],
+			[
+				"text",
+				"text-center \tBootstrap 4.4"
+			],
+			[
+				"ext",
+				"text-center \tBootstrap 4.4"
+			],
+			[
+				"text-white",
+				"text-white-50 \tBootstrap 4.4"
+			],
+			[
+				"mb-",
+				"mb-n5 \tBootstrap 4.4"
+			],
+			[
+				"mr-",
+				"mr-5 \tBootstrap 4.4"
+			],
+			[
+				"ml-u",
+				"ml-auto \tBootstrap 4.4"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "blog-angular/src/app/app.component.ts",
+			"settings":
+			{
+				"buffer_size": 1443,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog-angular/src/app/app.routing.ts",
+			"settings":
+			{
+				"buffer_size": 2099,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Accordian"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/FULLSTACK-MASTER",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/FULLSTACK-MASTER/active-directory-angular/src/polyfills.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/profile/profile.component.html",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/home/home.component.html",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/category-detail/category-detail.component.html",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/active-directory-angular/package.json",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/post-list/post-list.component.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/post-list/post-list.component.html",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/profile/profile.component.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/services/user.service.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/post-detail/post-detail.component.html",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/app.component.html",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/app.routing.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/post-edit/post-edit.component.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/services/post.service.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/post-edit/post-edit.component.html",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/post-new/post-new.component.html",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/category-detail/category-detail.component.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/services/identity.guard.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/services/category.service.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/app.module.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/api-rest-laravel/app/Http/Controllers/CategoryController.php",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/home/home.component.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/post-new/post-new.component.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/api-rest-laravel/app/Post.php",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/api-rest-laravel/app/Http/Controllers/PostController.php",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/api-rest-laravel/app/Http/Controllers/UserController.php",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/user-edit/user-edit.component.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/styles.css",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/post-detail/post-detail.component.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/test.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/models/Post.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/models/user.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/models/category.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/app.component.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/user-edit/user-edit.component.html",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/category-new/category-new.component.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/category-new/category-new.component.html",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/login/login.component.html",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/register/register.component.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/angular.json",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/login/login.component.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/api-rest-laravel/app/Providers/JwtAuthServiceProvider.php",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/api-rest-laravel/app/Helpers/JwtAuth.php",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/register/register.component.html",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/models/post.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/services/global.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/api-rest-laravel/routes/web.php",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/global.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/register/register.component.spec.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/services/user.services.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/package.json",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/error/error.component.ts",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/error/error.component.html",
+		"/C/xampp/htdocs/FULLSTACK-MASTER/blog-angular/src/app/components/login/login.component.css",
+		"/C/xampp/htdocs/akad/admin/payBot/views/pay/showPayEnrollment.php",
+		"/C/xampp/htdocs/akad/admin/payBot/views/pay/showInvoices.php",
+		"/C/xampp/htdocs/akad/admin/payBot/assets/scss/styles.scss",
+		"/C/xampp/htdocs/akad/admin/payBot/views/layout/header.php",
+		"/C/xampp/htdocs/akad/admin/payBot/views/pay/index.php",
+		"/C/xampp/htdocs/akad/admin/payBot/views/pay/showCodStudent.php",
+		"/C/xampp/htdocs/akad/admin/payBot/views/pay/showIdentifierStudent.php",
+		"/C/xampp/htdocs/akad/admin/payBot/views/layout/footer.php",
+		"/C/xampp/htdocs/akad/admin/payBot/helpers/utils.php",
+		"/C/xampp/htdocs/akad/admin/payBot/views/error/index.php",
+		"/C/xampp/htdocs/akad/admin/payBot/controllers/PayController.php",
+		"/C/xampp/htdocs/akad/admin/payBot/models/Alumno.php",
+		"/C/Users/maportero.UESCR.000/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/xampp/htdocs/proyecto-bootstrap4/css/my-styles.css"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\FULLSTACK-MASTER\\blog-angular"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"{\n",
+			"Post",
+			"white",
+			"class"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "blog-angular/src/app/app.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1304,
+								1304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "blog-angular/src/app/app.routing.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1459,
+								1459
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"use_tab_stops": false
+						},
+						"translation.x": 66.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "FULLSTACK=MASTER.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 520.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

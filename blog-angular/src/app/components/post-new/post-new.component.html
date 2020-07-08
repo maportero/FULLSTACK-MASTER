@@ -1,0 +1,76 @@
+<div class="col-md-12 mt-3">
+	<h1>{{page_title}}</h1>
+	<p *ngIf="!status && !is_edit ">Ingresa los datos de la entrada</p>
+	<p *ngIf="!status && is_edit == true ">Modifica los datos de la entrada</p>
+	<hr>
+	<!-- Fromulario de nueva entrada -->
+	<div class="alert alert-success col-md-8" *ngIf="status == 'success' ">
+		
+		La entrada se ha registrado correctamente.
+
+	</div>
+	<div class="alert alert-danger col-md-8" *ngIf="status == 'error' ">
+		
+		La entrada no se ha registrado correctamente.
+	</div>
+	<form class="col-md-8 ml-0 pl-0" #newPostForm="ngForm" (ngSubmit) = "onSubmit(newPostForm)">
+		<div class="form-group">
+			<label for="category_id">Categoría</label>
+			<select name="category_id" #category_id = "ngModel" [(ngModel)] = "post.category_id" class="form-control col-md-5" required>
+				<option *ngFor="let category of categories" value="{{ category.id }}" >
+					{{ category.name }}
+				</option>
+
+			</select>
+			<small *ngIf="!category_id.valid && category_id.touched" class="invalid-feedback d-block">
+				"La categoría no es válida"
+			</small>
+			<small *ngIf="errors" class="invalid-feedback d-block">
+				{{ errors['category_id'] }}
+			</small>
+		</div>
+		<div class="form-group">
+			<label for="title">Título</label>
+			<input type="text" name="title" class="form-control" #title = "ngModel" [(ngModel)] = "post.title" required >
+			<small *ngIf="!title.valid && title.touched" class="invalid-feedback d-block">
+				"El título no es válido"
+			</small>
+			<small *ngIf="errors" class="invalid-feedback d-block">
+				{{ errors['title'] }}
+			</small>
+		</div>
+		<div class="form-group">
+			<label for="content">Contenido</label>
+			<textarea [froalaEditor]="froala_options" name="content" class="form-control" #content = "ngModel" [(ngModel)] = "post.content" [(froalaModel)]="post.content"></textarea>
+			<small *ngIf="!content.valid && content.touched" class="invalid-feedback d-block">
+				"El contenido no es válido"
+			</small>
+			<small *ngIf="errors" class="invalid-feedback d-block">
+				{{ errors['content'] }}
+			</small>
+		</div>
+
+		<div class="form-group">
+			<label for="image">Imágen</label>
+			<div *ngIf="post && post.image" class="image-post-detail">
+				<img src="{{ url + 'post/image/'+ post.image }}" class="w-100" />
+			</div>
+			<br>
+			<angular-file-uploader 
+				[config]="afuConfig"
+				[resetUpload]="true"
+				
+      			(ApiResponse)="postImageUpload($event)"> 
+			</angular-file-uploader>
+			<small *ngIf="errors" class="invalid-feedback d-block">
+				{{ errors['image'] }}
+			</small>
+					
+		</div>
+
+			<input type="submit" class="btn btn-success" value="Guardar" [disabled] = "newPostForm.invalid">
+		
+
+	</form>
+			
+</div>

@@ -1,0 +1,31 @@
+
+	<div class="loading" *ngIf="!posts">
+		Cargando...
+	</div>
+
+	<div class="container-fluid mt-3" *ngIf="posts">
+        <h1>Entradas</h1>
+		<hr>
+		<div class="alert alert-success col-md-8" *ngIf="status == 'success' ">
+		
+			La entrada se ha eliminado correctamente.
+
+		</div>
+		<div class="alert alert-danger col-md-8" *ngIf="status == 'error' ">
+			
+			La entrada no se ha eliminado correctamente.
+		</div>
+		<!-- LISTADO DE ENTRADAS -->
+		<post-list 
+			[posts]="posts"
+			[identity]="identity" 
+			[url]="url"
+
+			>
+		</post-list>
+
+
+		
+
+	</div>
+

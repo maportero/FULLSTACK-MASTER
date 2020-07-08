@@ -1,0 +1,27 @@
+<div class="col-md-12 mt-3">
+	<h1>{{page_title}}</h1>
+	<p *ngIf="!status">Por favor ingrese los datos de la categoria</p>
+
+	<!-- Fromulario de categoria -->
+	<div class="alert alert-success col-md-5" *ngIf="status == 'success' ">
+		
+		Se guardó la categoría correctamente
+	</div>
+	<div class="alert alert-danger col-md-5" *ngIf="status == 'error' ">
+		
+		No se registró la categoría.
+	</div>
+	<form class="col-md-5 ml-0 pl-0" #categoryForm="ngForm" (ngSubmit) = "onSubmit(categoryForm)">
+		<div class="form-group">
+			<label for="name">Nombre</label>
+			<input type="text" name="name" class="form-control" #name = "ngModel" [(ngModel)] = "category.name" required >
+			<small *ngIf="!name.valid && name.touched" class="invalid-feedback d-block">
+				"El nombre no es válido"
+			</small>
+			<small *ngIf="errors" class="invalid-feedback d-block">
+				{{ errors['name'] }}
+			</small>
+		</div>		
+			<input type="submit" class="btn btn-success" value="Crear categoría" [disabled] = "categoryForm.invalid">
+	</form>
+</div>
